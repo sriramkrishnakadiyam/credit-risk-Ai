@@ -235,7 +235,7 @@ python train_model.py
 python app.py
 ```
 
-Open **http://127.0.0.1:5000** in your browser. Keep the PowerShell window open while using the site; press **Ctrl+C** there to stop the server.
+Open http://13.60.52.216:5001/ in your browser. Keep the PowerShell window open while using the site; press **Ctrl+C** there to stop the server.
 
 Flask prints a red warning that its built-in server is for development. This is expected when running `python app.py` locally; it is not an application error. The Render deployment uses Gunicorn as its production server, as configured in `render.yaml`.
 
